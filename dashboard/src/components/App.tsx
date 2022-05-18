@@ -1,3 +1,11 @@
+import { TableHead } from './TableHead.jsx';
+import { TableRow } from './TableRow.js';
+
 export function App() {
-  return <h1 className="bg-zinc-400">Hello World</h1>;
+  return (
+    <div className=" bg-white shadow-xl min-h-full mx-4 mt-4 rounded-md">
+      <TableHead />
+      <TableRow />
+    </div>
+  );
 }
